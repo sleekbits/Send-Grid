@@ -1,0 +1,19 @@
+{
+  "name": "send-grid/campaign-platform",
+  "type": "project",
+  "description": "Bulk email sending and campaign management platform built with Laravel.",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^12.0",
+    "laravel/sanctum": "^4.0",
+    "spatie/laravel-permission": "^6.0",
+    "spatie/laravel-activitylog": "^4.8",
+    "maatwebsite/excel": "^3.1",
+    "barryvdh/laravel-dompdf": "^3.0"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.23",
+    "laravel/pint": "^1.13",
+    "phpunit/phpunit": "^11.0"
+  }
+}
