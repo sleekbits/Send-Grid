@@ -58,3 +58,10 @@ Cron entry:
 - Use HTTPS-only cookies and secure session storage.
 - Configure provider webhooks for open/click/bounce tracking.
 - Encrypt SMTP secrets using Laravel encrypted casts or app-level key vault integration.
+
+## Troubleshooting Composer Install
+If `composer install` fails with `CONNECT tunnel failed, response 403`, your environment blocks access to Packagist.
+Use one of these approaches:
+1. Run the install from a network-enabled machine.
+2. Configure a private Packagist mirror (Satis/Private Packagist) and set Composer repositories.
+3. Set outbound proxy credentials for Composer in CI/container.
