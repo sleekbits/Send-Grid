@@ -65,3 +65,6 @@ Use one of these approaches:
 1. Run the install from a network-enabled machine.
 2. Configure a private Packagist mirror (Satis/Private Packagist) and set Composer repositories.
 3. Set outbound proxy credentials for Composer in CI/container.
+
+## Hosted Deployment (Non-localhost)
+If you are deploying to `https://queue.liveblog365.com`, use `.env` values based on `.env.example` and follow `DEPLOYMENT.md` for production steps.
